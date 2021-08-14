@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Uft-8">
+        <title>Bài tập 12 chương 2</title>
+    </head>
+    <body>
+        <form action="#">            
+                <table border="1" style="margin-inline:auto;" bgcolor="#04B2D9">
+                    <caption><h2>THÔNG TIN THÔNG KÝ</h2></caption>
+                   <tr>
+                       <td class="tdlb1"> <label for="Hoten" class="label">Họ Tên:</label></td>
+                        <td><input type="Text" name="Name" value="" id="Hoten" style="width: 180px;" placeholder="Nhập họ tên ở đây!"/></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tdlb1"><label for="Gioitinh" class="label">Giới tính:</label>
+                        <td>
+                            <input type="radio" id="GT" name="GT" value="Nam"/>Nam
+                            <input type="radio" id="GT" name="GT" value="Nữ"/>Nữ <br/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="tdlb1"><label for="birthday" class="label"></label>Ngày sinh:</label></td>
+                        <td>
+                            <input type="date" name= "bday">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="tdlb1"><label for="wish" class="label">Điều bạn quan tâm:</label></td>
+                        <td>
+                            <input type="checkbox" id="Kinhte" name="Kinhte" value="Kinhte"/>
+                            <label for="Kinhte">Kinh tế</label>
+                            <input type="checkbox" id="Xahoi" name="Xahoi" value="Xahoi" />
+                            <label for="Xahoi">Xã hội</label>
+                            <input type="checkbox" id="Giaitri" name="Giaitri" value="Giaitri" />
+                            <label for="Giaitri">Giải trí</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="tdlb1"><label for="Diachi" class="label">Địa chỉ:</label></td>
+                        <td><textarea rows="5" cols="50"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tdlb1"><label for="Hocvan" class="label">Học vấn:</label></td>
+                        <td>
+                            <input type="text" id="txt_hocvan" list="Hocvan"/>
+                            <datalist name="Hocvan" id="Hocvan">
+                                <option value="Đại học"></option>
+                                <option value="Cao đẳng"></option>
+                                <option value="Trung cấp"></option>
+                                <option value="THPT"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center">                            
+                            <button type="submit" id="submit" value="submit">GỬI THÔNG TIN</button>
+                            <button type="reset" id="reset" value="reset">NHẬP LẠI </button>
+                        </td>
+                    </tr>
+
+                </table>        
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: yellow;
+    border: 1px solid #000000;
+    width: 200px; height: 100px;
+    margin: 20px;
+    float: left;
+}
+div[class$="1"]{
+    display:inline-block;
+}
+div[class$="2"]{
+    display:inline-block;
+    overflow: hidden;
+    line-height:20px;
+    Clear: left;
+}
+div[class$="3"]{
+    display:flex;
+    overflow: scroll;
+}

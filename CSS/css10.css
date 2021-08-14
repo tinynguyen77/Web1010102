@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(209, 209, 167);
+    Text-align: center;
+    padding-top: 50px;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.row{
+    margin-bottom:5px;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-8,
+.col-md-12 {
+    border-style: solid;
+    border-width: thin;
+    background-color: rgb(95, 199, 202);
+    height: 50px;
+}

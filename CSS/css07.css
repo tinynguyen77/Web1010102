@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.head{
+    font-size: 40px;
+    color:blue;
+}
+hr{
+    background-color:mediumaquamarine;
+    size: 4px;
+}
+.menu{
+    background-color:mediumaquamarine;
+    text-align: center;
+    padding: 1px;
+}
+li{
+    display: inline-block;
+    color:blue;
+    padding-left: 1.5em;
+    font-size: 15px;
+    margin: 4px;
+}
+p[id*="dande"]{
+    font-size:larger;
+}
+
+

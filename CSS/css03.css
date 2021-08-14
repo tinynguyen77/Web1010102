@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{
+    color:#000000;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 10px; 
+}
+/* Thiết lập lại thuộc tính padding (vùng đệm) */
+p[id]{
+    border:1px solid #000000;
+}
+/* Thiết lập thuộc tính border (đường viền) cho đối tượng p */
+p[id="summary"]{
+    background-color: #ffff00;
+}
+/* Thiết lập thuộc tính màu nền cho đối tượng id có giá trị summary */
+p[class~="XHTML"]{
+    border:5px solid #000000;
+}
+/* Thiết lật thuộc tính border cho đối tượng có chứa từ XHTML */
+p[language|=en]{
+    color:rgb(255,255,255);
+    background-color:rgb(0,0,0);
+}
+/* Thiết lập thuộc tính cho đối tượng bắt đầu bằng en */
+P[class^="b"]{
+    border:3px solid  #333333;
+    color:#ff00ff ;
+}
+/* Thiết lập thuộc tính cho đối tượng class có giá trị bắt đầu bằng chữ b */
+p[class$="x"]{
+    border:1px solid  #333333;
+    color:#ff0000;
+}
+/* Thiết lập thuộc tính cho đối tượng class có giá trị cuối cùng là x */
+p[class*="in"]{
+    background-color: #00ffff;
+}
+/* Thiết lập thuộc tính cho đối tượng class có chứa chuỗi in */
